@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Lógica combinatoria',
+    descripcionCurso:
+      'La lógica combinatoria utiliza compuertas lógicas como <em>OR, AND y NOT</em> para realizar funciones específicas. Representa operaciones mediante esquemas lógicos y tablas de verdad. Su simplificación optimiza diseños usando propiedades de Boole, teoremas de De Morgan y mapas de Karnaugh, reduciendo costos y espacio. Se aplica en circuitos digitales para procesos como control y supervisión.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
       },
     ],
   },
@@ -31,27 +40,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Lógica combinatoria',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +91,99 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Lógica combinatoria',
+      referencia:
+        'Fernando González. (2020). LÓGICA COMBINATORIA COMPUERTAS LÓGICAS CLASE 1. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=b096QGPxj38&ab_channel=FernandoGonz%C3%A1lez',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Lógica combinatoria',
+      referencia:
+        'Mundo Electrónica (2020). Compuertas lógicas y lógica combinacional | Curso de electrónica digital | #5 [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=OAA2B50e9nA&ab_channel=MundoElectr%C3%B3nica',
+    },
+    {
+      tema: 'Lógica combinatoria',
+      referencia:
+        'Electrónica FP. (2019). DeMorgan (Ejercicio) [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=N5YXG0KKLCc&ab_channel=Electr%C3%B3nicaFP',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Compuerta lógica',
+      significado:
+        'dispositivo digital que realiza operaciones básicas como and, <em>or o not</em>.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Esquema lógico',
+      significado:
+        'representación gráfica de funciones lógicas mediante compuertas.',
+    },
+    {
+      termino: 'Lógica combinatoria',
+      significado:
+        'rama de la electrónica digital que utiliza compuertas lógicas para realizar funciones específicas.',
+    },
+    {
+      termino: 'Mapas de Karnaugh',
+      significado:
+        'técnica gráfica para simplificar funciones lógicas en circuitos digitales.',
+    },
+    {
+      termino: 'Operación <em>AND</em>',
+      significado:
+        'representa la multiplicación lógica, donde la salida es 1 solo si todas las entradas son 1.',
+    },
+    {
+      termino: 'Operación <em>NOT</em>',
+      significado:
+        'representa la negación lógica, invirtiendo el valor de la entrada.',
+    },
+    {
+      termino: 'Operación <em>OR</em>',
+      significado:
+        'representa la suma lógica, donde la salida es 1 si alguna entrada es 1.',
+    },
+    {
+      termino: 'Simplificación lógica',
+      significado:
+        'proceso de optimizar funciones lógicas reduciendo el número de compuertas necesarias.',
+    },
+    {
+      termino: 'Tabla de verdad',
+      significado:
+        'herramienta para describir todas las combinaciones posibles de entradas y sus salidas.',
+    },
+    {
+      termino: 'Teoremas de De Morgan',
+      significado:
+        'reglas matemáticas que permiten simplificar expresiones lógicas mediante negaciones.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Cidead, (s.f). Material interactivo sobre Lógica Binaria.',
+      link:
+        'http://recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/4q2_index.htm',
+    },
+    {
+      referencia:
+        'Mc Graw Hill, (s.f), Introducción a los sistemas digitales. Unidad 1. En Mc Graw Hill.',
+      link: 'http://www.mcgraw-hill.es/bcv/guide/capitulo/844817156X.pdf',
+    },
+    {
+      referencia: 'Neuroproductions, (s.f). Simulador On line.',
+      link: '',
+    },
+    {
+      referencia: 'ProfesorMolina, (s.f). Función interactiva de compuertas.',
       link: '',
     },
   ],
@@ -150,8 +207,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Magda Melissa Rodríguez Celis',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +223,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Carlos Julián Ramírez Benítez',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edwin Sneider Velandia Suarez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -180,23 +238,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Margarita Marcela Medrano Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
