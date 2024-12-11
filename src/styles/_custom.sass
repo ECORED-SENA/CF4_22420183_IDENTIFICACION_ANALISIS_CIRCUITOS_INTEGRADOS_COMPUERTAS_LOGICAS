@@ -50,6 +50,8 @@
     background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
 
 //colores
+.fondo-color-sistema-d
+  background-color: $color-sistema-d
 .fondo-color-sistema-h
   background-color: $color-sistema-h
 .fondo-color-sistema-i
@@ -60,6 +62,17 @@
   background-color: $color-sistema-k
 .fondo-color-sistema-l
   background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
+
+.c-color-sistema-p
+  color: $color-sistema-p
 
 //fondos
 .fondo-personalizado-1
@@ -113,6 +126,12 @@
   &.bottom-1
     &:before
       bottom: 50px
+  &.top-1
+    &:before
+      top: 50px
+  &.top-2
+    &:before
+      top: 380px
   &.f1
     &:before
       background-image: url(../assets/curso/temas/1.png)
@@ -213,6 +232,9 @@
       left: -4px
 
 .tabla-p-1
+  &.min-w-1
+    table
+      min-width: 500px
   &.pad-p-1
     td
       padding: 1.2em 2em
@@ -220,3 +242,27 @@
     min-width: 300px
     thead
       background-color: $color-sistema-k
+
+.f-p-1
+  font: inherit
+
+.order-p-1
+  order: 1    
+.order-p-2
+  order: 2
+  @media screen and (max-width: $bp-max-md)
+    order: 3
+.order-p-3
+  order: 3
+  @media screen and (max-width: $bp-max-md)
+    order: 5
+.order-p-4
+  order: 4
+  @media screen and (max-width: $bp-max-md)
+    order: 2
+.order-p-5
+  order: 5
+  @media screen and (max-width: $bp-max-md)
+    order: 4
+.order-p-6
+  order: 6
