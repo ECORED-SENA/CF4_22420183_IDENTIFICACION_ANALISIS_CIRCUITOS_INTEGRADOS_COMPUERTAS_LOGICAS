@@ -412,12 +412,186 @@
     
     p.mb-4 Con la función lógica, se procede a construir la tabla de verdad. La tabla de verdad y los niveles lógicos que corresponden a la salida de dicha función son los siguientes:
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 4.] Tabla de verdad para función lógica compuesta
+        .tabla-b.color-acento-contenido.tabla-p-1.pad-p-1
+          table
+            thead
+              tr
+                th.text-center(colspan="3") Variables o entradas
+                th.text-center(colspan="4") Salidas parciales
+                th.text-center Función lógica
+            tbody
+              tr
+                td.fw-bold A
+                td.fw-bold B
+                td.fw-bold C
+                td.fw-bold A+B+C
+                td.fw-bold C’
+                td.fw-bold.text-nowrap (A+B+C) * C’
+                td.fw-bold B*C’
+                td.fw-bold.text-nowrap [(A+B+C) * C’]+ B*C’
+                tr
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                tr
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                tr
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                tr
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                tr
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 1
+                tr
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                tr
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                tr
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+    
+    p.mb-4 Para comprobar la tabla se debe realizar la simulación: 
+    
+    .row.justify-content-center.mb-4
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 7.] Circuito lógico con compuertas combinadas
+        
+        .fondo-color-sistema-n.p-4.py-lg-5
+          figure.mb-4.mb-lg-0
+            img.mx-auto(src="@/assets/curso/temas/18.svg",style="max-width: 773px;")
+    
+    p.fw-bold Simplificación de la función anterior:
+
+    .row.align-items-center
+      .col-lg-7
+        .fondo-color-sistema-m.p-4.borde-8.mb-3.d-inline-flex
+          p.mb-0.fw-bold [(A+B+C)⋅C′]+(B⋅C′)
+        .fondo-color-sistema-q.p-3.px-lg-4.borde-8.mb-1
+          .row
+            .col-lg-8
+              p.mb-1 1. Multiplicación de C′C'C′ por la operación (A+B+C)
+              p.mb-0 (A⋅C′)+(B⋅C′)+(C⋅C′)+(B⋅C′)
+            .col-lg-4
+              p.mb-0.fw-bold (A⋅C′)+(B⋅C′)+(C⋅C′)+(B⋅C′)
+        .fondo-color-sistema-r.p-3.px-lg-4.borde-8.mb-1
+          .row
+            .col-lg-8
+              p.mb-1 2. Aplicación de la propiedad inversa (C*C′=0)
+              p.mb-0 (A*C′)+(B⋅C′)+(B*C′)
+            .col-lg-4
+              p.mb-0.fw-bold (A*C′)+(B⋅C′)+(B*C′)
+        .fondo-color-sistema-q.p-3.px-lg-4.borde-8.mb-1
+          .row
+            .col-lg-8
+              p.mb-1 3. Simplificación de igualdad (B⋅C′+B⋅C′ =B⋅C′)
+              p.mb-0 (A⋅C′)+(B⋅C′)
+            .col-lg-4
+              p.mb-0.fw-bold (A⋅C′)+(B⋅C′)
+        .fondo-color-sistema-r.p-3.px-lg-4.borde-8.mb-1
+          .row
+            .col-lg-8
+              p.mb-1 4. Aplicación de la propiedad distributiva (C′⋅(A+B))
+              p.mb-0 C′⋅(A+B)
+            .col-lg-4
+              p.mb-0.fw-bold C′⋅(A+B)
+        .fondo-color-sistema-q.p-3.px-lg-4.borde-8.mb-1
+          .row
+            .col-lg-8
+              p.mb-1 5. Resultado simplificado
+              p.mb-0 [(A+B+C)⋅C′]+(B⋅C′)=C′⋅(A+B)
+            .col-lg-4
+              p.mb-0.fw-bold [(A+B+C)⋅C′]+(B⋅C′)=C′⋅(A+B)
+        .fondo-color-sistema-r.p-3.px-lg-4.borde-8.mb-4
+          .row
+            .col-lg-8
+              p.mb-1 6. Conclusión
+              p.mb-0 Función inicial = Función simplificada.
+            .col-lg-4
+              p.mb-0.fw-bold Función inicial = Función 
+              simplificada.
+        p.fw-bold.mb-4 Propiedades utilizadas:
+
+        .row.align-items-center
+          .col-lg-3.mb-4
+            .fondo-color-sistema-i.text-center.d-flex.align-items-center.justify-content-center(style="min-height: 59px;")
+              p.mb-0.fw-bold Propiedad inversa
+            .fondo-color-sistema-n.p-3.text-center
+              p.mb-0 C⋅C′=0.
+          .col-lg-5.mb-4
+            .fondo-color-sistema-i.text-center.d-flex.align-items-center.justify-content-center(style="min-height: 59px;")
+              p.mb-0.fw-bold Propiedad de simplificación de igualdad
+            .fondo-color-sistema-n.p-3.text-center
+              p.mb-0 B⋅C′+B⋅C′=B⋅C′B
+          .col-lg-4.mb-4
+            .fondo-color-sistema-i.text-center.d-flex.align-items-center.justify-content-center(style="min-height: 59px;")
+              p.mb-0.fw-bold Propiedad distributiva
+            .fondo-color-sistema-n.p-3.text-center
+              p.mb-0 C′⋅(A+B)=(A⋅C′)+(B⋅C′)
+
+      .col-lg-5
+        figure
+          img.mx-auto(src="@/assets/curso/temas/19.png",style="max-width: 505px;")
 
 
+                  
+             
 
 
 
