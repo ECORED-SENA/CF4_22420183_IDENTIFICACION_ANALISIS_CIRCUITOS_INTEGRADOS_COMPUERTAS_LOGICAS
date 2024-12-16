@@ -164,7 +164,7 @@
     .row.justify-content-center(data-aos="fade-up")
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 2.] Diagrama lógico con compuertas OR y AND
+          p.mb-0 #[b Figura 2.] Diagrama lógico con compuertas #[em OR] y #[em AND]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/8.svg",style="max-width: 434px;",alt="El diagrama muestra un circuito lógico compuesto por tres entradas etiquetadas como A, B y C. Estas se conectan a dos compuertas OR: la primera toma las entradas A y B, mientras que la segunda toma las entradas B y C. Las salidas de ambas compuertas OR se dirigen a una compuerta AND, cuya salida final está conectada a un cuadro etiquetado como Salida.")
@@ -515,7 +515,7 @@
         
         .fondo-color-sistema-n.p-4.py-lg-5
           figure.mb-4.mb-lg-0
-            img.mx-auto(src="@/assets/curso/temas/18.svg",style="max-width: 773px;")
+            img.mx-auto(src="@/assets/curso/temas/18.svg",style="max-width: 773px;",alt='La figura presenta un circuito lógico con tres entradas etiquetadas como A, B y C. Las entradas A y B pasan por una compuerta OR, cuya salida se dirige a una compuerta AND. La entrada C pasa por una compuerta NOT antes de combinarse en una compuerta AND con otra línea de entrada. Las salidas de ambas compuertas AND se combinan en una compuerta OR final, que genera la salida del circuito marcada como "Salida".')
     
     p.fw-bold(data-aos="fade-up") Simplificación de la función anterior:
 

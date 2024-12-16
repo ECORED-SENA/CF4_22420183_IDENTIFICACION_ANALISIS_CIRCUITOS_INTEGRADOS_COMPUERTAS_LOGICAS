@@ -119,7 +119,7 @@ export default {
     {
       termino: 'Compuerta lógica',
       significado:
-        'dispositivo digital que realiza operaciones básicas como and, <em>or o not</em>.',
+        'dispositivo digital que realiza operaciones básicas como <em>and, or o not</em>.',
     },
     {
       termino: 'Esquema lógico',
@@ -237,6 +237,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',

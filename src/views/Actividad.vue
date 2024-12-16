@@ -81,7 +81,8 @@ export default {
         },
         {
           id: 4,
-          texto: '¿Cuál es el elemento químico con el símbolo H?',
+          texto:
+            '¿Qué representan las propiedades de Boole en la lógica combinatoria?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
