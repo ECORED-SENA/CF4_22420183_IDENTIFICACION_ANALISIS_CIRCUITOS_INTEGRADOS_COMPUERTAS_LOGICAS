@@ -25,7 +25,7 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Qué representa la operación OR (+)?',
+          texto: '¿Qué representa la operación <i>OR</i> (+)?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -107,7 +107,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Herramientas exclusivas para la operación AND.',
+              texto: 'Herramientas exclusivas para la operación <i>AND</i>.',
               esCorrecta: false,
             },
           ],
@@ -116,7 +116,8 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué dispositivo realiza operaciones como OR, AND y NOT?',
+          texto:
+            '¿Qué dispositivo realiza operaciones como <i>OR</i>, <i>AND</i>, y <i>NOT</i>?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -160,8 +161,7 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Qué resultado se obtiene aplicando los teoremas de De Morgan?',
+          texto: '¿Qué resultado se obtiene aplicando los teoremas de Morgan?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -234,7 +234,8 @@ export default {
         },
         {
           id: 10,
-          texto: 'La tabla de verdad solo se utiliza para operaciones OR.',
+          texto:
+            'La tabla de verdad solo se utiliza para operaciones <i>OR</i>.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -269,7 +270,8 @@ export default {
         },
         {
           id: 12,
-          texto: "¿Qué significa la operación NOT (') en lógica combinatoria?",
+          texto:
+            "¿Qué significa la operación <i>NOT</i> (') en lógica combinatoria?",
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -335,7 +337,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Un conjunto de operaciones AND.',
+              texto: 'Un conjunto de operaciones <i>AND</i>.',
               esCorrecta: false,
             },
             {
@@ -365,7 +367,7 @@ export default {
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Esquemas lógicos.', esCorrecta: false },
-            { id: 'b', texto: 'Teoremas de De Morgan.', esCorrecta: true },
+            { id: 'b', texto: 'Teoremas de Morgan.', esCorrecta: true },
             { id: 'c', texto: 'Compuertas virtuales.', esCorrecta: false },
             { id: 'd', texto: 'Operaciones aritméticas.', esCorrecta: false },
           ],

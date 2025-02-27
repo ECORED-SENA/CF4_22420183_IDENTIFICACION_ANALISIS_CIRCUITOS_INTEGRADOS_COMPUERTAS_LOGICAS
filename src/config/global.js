@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Lógica combinatoria',
     Description:
-      'La lógica combinatoria utiliza compuertas lógicas como <em>OR, AND y NOT</em> para realizar funciones específicas. Representa operaciones mediante esquemas lógicos y tablas de verdad. Su simplificación optimiza diseños usando propiedades de Boole, teoremas de De Morgan y mapas de Karnaugh, reduciendo costos y espacio. Se aplica en circuitos digitales para procesos como control y supervisión.',
+      'La lógica combinatoria utiliza compuertas lógicas como <em>OR, AND y NOT</em> para realizar funciones específicas. Representa operaciones mediante esquemas lógicos y tablas de verdad. Su simplificación optimiza diseños usando propiedades de Boole, teoremas de Morgan y mapas de Karnaugh, reduciendo costos y espacio. Se aplica en circuitos digitales para procesos como control y supervisión.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -162,7 +162,7 @@ export default {
         'herramienta para describir todas las combinaciones posibles de entradas y sus salidas.',
     },
     {
-      termino: 'Teoremas de De Morgan',
+      termino: 'Teoremas de Morgan',
       significado:
         'reglas matemáticas que permiten simplificar expresiones lógicas mediante negaciones.',
     },

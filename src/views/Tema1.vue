@@ -46,15 +46,15 @@
                   tr
                     td A + B
                     td +
-                    td OR
+                    td #[i OR]
                   tr
                     td B + C
                     td +
-                    td OR
+                    td #[i OR]
                   tr
                     td (A + B) · (B + C)
                     td ·
-                    td AND
+                    td #[i AND]
     
     p.mb-4(data-aos="fade-up") De esta forma, el esquema lógico quedaría diseñado considerando las compuertas correspondientes a cada operación.
 
@@ -198,12 +198,12 @@
         .row.justify-content-center(data-aos="fade-up")
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 3.] #[i Propiedades o Reglas del Álgebra de Boole]
+              p.mb-0 #[b Tabla 3.] #[i Propiedades o reglas del álgebra de Boole]
             .tabla-a.color-acento-contenido.tabla-p-1.min-w-1.mb-5
               table
                 thead
                   tr
-                    th Propiedad o Regla
+                    th Propiedad o regla
                     th(style="width: 230px;") Ejemplo
                 tbody
                   tr
@@ -364,7 +364,7 @@
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
-        h3 Esquema lógico simplificado versus Esquema lógico sin simplificar
+        h3 Esquema lógico simplificado versus esquema lógico sin simplificar
     
     p.mb-4(data-aos="fade-up") Ambos esquemas realizan la misma función lógica, pero el esquema simplificado utiliza menos compuertas, lo que resulta en una reducción de costos y espacio. Esto resalta la importancia de simplificar las funciones lógicas al diseñar circuitos.
 
@@ -406,9 +406,8 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 6.] #[i Diagrama de circuito lógico y tabla de operaciones]
-        .fondo-color-sistema-n.p-4
-          figure
-            img.mx-auto(src="@/assets/curso/temas/17.svg",style="max-width: 909px;",alt="La imagen muestra un circuito lógico con varias compuertas y una tabla explicativa. El circuito comienza con una compuerta OR que toma como entradas A, B y C, y su salida es A + B + C. Luego, la entrada C pasa por una compuerta NOT para ser negada (C). La salida de la compuerta NOT (C) y la entrada B se combinan en una compuerta AND, generando la salida B⋅C. Posteriormente, la salida de la primera compuerta OR y C pasan por otra compuerta AND, cuyo resultado es (A+B+C)⋅C. Finalmente, ambas salidas AND se combinan en una compuerta OR, dando como resultado la función lógica final [(A+B+C)⋅C]+(B⋅C). La tabla debajo describe las compuertas utilizadas: OR (+), NOT (Inversor o negación), y AND (⋅).")
+        figure
+          img.mx-auto(src="@/assets/curso/temas/17.svg",style="max-width: 1100px;",alt="La imagen muestra un circuito lógico con varias compuertas y una tabla explicativa. El circuito comienza con una compuerta OR que toma como entradas A, B y C, y su salida es A + B + C. Luego, la entrada C pasa por una compuerta NOT para ser negada (C). La salida de la compuerta NOT (C) y la entrada B se combinan en una compuerta AND, generando la salida B⋅C. Posteriormente, la salida de la primera compuerta OR y C pasan por otra compuerta AND, cuyo resultado es (A+B+C)⋅C. Finalmente, ambas salidas AND se combinan en una compuerta OR, dando como resultado la función lógica final [(A+B+C)⋅C]+(B⋅C). La tabla debajo describe las compuertas utilizadas: OR (+), NOT (Inversor o negación), y AND (⋅).")
     
     p.mb-4(data-aos="fade-up") Con la función lógica, se procede a construir la tabla de verdad. La tabla de verdad y los niveles lógicos que corresponden a la salida de dicha función son los siguientes:
 
@@ -595,7 +594,7 @@
       p.mb-0 #[b Tabla 5.] #[i Comparación de función lógica sin simplificar y simplificada]
     
     .row(data-aos="fade-up")
-      .col-lg-6.mb-4
+      .col-lg-5.mb-4
         .tabla-a.color-acento-contenido.tabla-p-1
           table
             thead(style="height:73px;")
@@ -648,7 +647,7 @@
                   td.text-center 1
                   td.text-center 1
                   td.text-center 0
-      .col-lg-6.mb-4
+      .col-lg-7.mb-4
         .tabla-a.color-acento-contenido.tabla-p-1.min-w-1
           table
             thead(style="height:73px;")
@@ -939,15 +938,14 @@
           figure
             img.mx-auto(src="@/assets/curso/temas/27.svg",style="max-width: 865px;",alt="La figura presenta un diagrama lógico compuesto por tres puertas. Un sensor detector de objetos (A) pasa por una compuerta NOT que genera la salida de la puerta 1. Un botón de revisión (B) se combina con la salida de la puerta 1 en una compuerta AND para generar la salida de la puerta 2. Finalmente, un sensor de tiquete (C) y la salida de la puerta 2 se combinan en otra compuerta AND para generar la salida de la puerta 3 o salida final.")
     
-    p.mb-4(data-aos="fade-up") En el esquema se identifican tres compuertas necesarias para cumplir las funciones específicas del proceso, de las cuales dos son del tipo AND. Por lo tanto, los circuitos integrados adecuados para el diseño son:
+    p.mb-4(data-aos="fade-up") En el esquema se identifican tres compuertas necesarias para cumplir las funciones específicas del proceso, de las cuales dos son del tipo #[i AND]. Por lo tanto, los circuitos integrados adecuados para el diseño son:
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 13.] #[i Implementación del control de puertas con circuitos integrados]
-        .fondo-color-sistema-n.p-4
-          figure
-            img.mx-auto(src="@/assets/curso/temas/28.svg",style="max-width: 749px;",alt="La figura presenta dos circuitos integrados utilizados para implementar el control lógico de las puertas. El primer circuito es un 7404 con seis compuertas NOT, utilizado para la inversión de la entrada del sensor detector de objetos (A) en la puerta 1. El segundo circuito es un 7408 con cuatro compuertas AND, utilizado para las combinaciones lógicas en las puertas 2 y 3, integrando las señales de revisión (B) y del sensor de tiquete (C).")
+        figure
+          img.mx-auto(src="@/assets/curso/temas/28.svg",style="max-width: 1000px;",alt="La figura presenta dos circuitos integrados utilizados para implementar el control lógico de las puertas. El primer circuito es un 7404 con seis compuertas NOT, utilizado para la inversión de la entrada del sensor detector de objetos (A) en la puerta 1. El segundo circuito es un 7408 con cuatro compuertas AND, utilizado para las combinaciones lógicas en las puertas 2 y 3, integrando las señales de revisión (B) y del sensor de tiquete (C).")
  
 </template>
 
