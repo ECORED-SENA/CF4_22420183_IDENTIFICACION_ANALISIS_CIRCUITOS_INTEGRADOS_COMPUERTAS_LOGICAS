@@ -9,15 +9,19 @@
   </template>
 
 <script>
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
   data: () => ({
     cuestionario: {
       tema: 'Lógica combinatoria',
       titulo: 'Cuestionario',
       introduccion:
-        'Identificar  los conceptos fundamentales de la lógica combinatoria, incluyendo operaciones lógicas, herramientas de representación, y métodos de simplificación, para afianzar el conocimiento teórico y práctico en el diseño de circuitos digitales.',
-      barajarPreguntas: false,
+        '<b> Objetivo:</b> identificar  los conceptos fundamentales de la lógica combinatoria, incluyendo operaciones lógicas, herramientas de representación, y métodos de simplificación, para afianzar el conocimiento teórico y práctico en el diseño de circuitos digitales.',
+      barajarPreguntas: true,
       preguntas: [
         {
           id: 1,

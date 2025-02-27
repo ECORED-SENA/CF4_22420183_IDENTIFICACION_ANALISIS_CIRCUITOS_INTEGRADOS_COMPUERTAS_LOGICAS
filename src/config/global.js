@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Lógica combinatoria',
-    descripcionCurso:
+    Name: 'Lógica combinatoria',
+    Description:
       'La lógica combinatoria utiliza compuertas lógicas como <em>OR, AND y NOT</em> para realizar funciones específicas. Representa operaciones mediante esquemas lógicos y tablas de verdad. Su simplificación optimiza diseños usando propiedades de Boole, teoremas de De Morgan y mapas de Karnaugh, reduciendo costos y espacio. Se aplica en circuitos digitales para procesos como control y supervisión.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
@@ -93,7 +93,7 @@ export default {
     {
       tema: 'Lógica combinatoria',
       referencia:
-        'Fernando González. (2020). LÓGICA COMBINATORIA COMPUERTAS LÓGICAS CLASE 1. [Archivo de video] YouTube.',
+        'Fernando González. (2020). <i>LÓGICA COMBINATORIA COMPUERTAS LÓGICAS CLASE 1</i>. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=b096QGPxj38&ab_channel=FernandoGonz%C3%A1lez',
@@ -101,7 +101,7 @@ export default {
     {
       tema: 'Lógica combinatoria',
       referencia:
-        'Mundo Electrónica (2020). Compuertas lógicas y lógica combinacional | Curso de electrónica digital | #5 [Archivo de video] YouTube.',
+        'Mundo Electrónica (2020). <i>Compuertas lógicas y lógica combinacional | Curso de electrónica digital | #5</i>. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=OAA2B50e9nA&ab_channel=MundoElectr%C3%B3nica',
@@ -109,7 +109,7 @@ export default {
     {
       tema: 'Lógica combinatoria',
       referencia:
-        'Electrónica FP. (2019). DeMorgan (Ejercicio) [Archivo de video] YouTube.',
+        'Electrónica FP. (2019). <i>DeMorgan (Ejercicio)</i>. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=N5YXG0KKLCc&ab_channel=Electr%C3%B3nicaFP',
@@ -169,21 +169,23 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Cidead, (s.f). Material interactivo sobre Lógica Binaria.',
+      referencia:
+        'Cidead, (s.f). <i>Material interactivo sobre Lógica Binaria</i>.',
       link:
         'http://recursostic.educacion.es/secundaria/edad/4esotecnologia/quincena5/4q2_index.htm',
     },
     {
       referencia:
-        'Mc Graw Hill, (s.f), Introducción a los sistemas digitales. Unidad 1. En Mc Graw Hill.',
+        'Mc Graw Hill, (s.f), <i>Introducción a los sistemas digitales. Unidad 1</i>. En Mc Graw Hill.',
       link: 'http://www.mcgraw-hill.es/bcv/guide/capitulo/844817156X.pdf',
     },
     {
-      referencia: 'Neuroproductions, (s.f). Simulador On line.',
+      referencia: 'Neuroproductions, (s.f). <i>Simulador On line</i>.',
       link: '',
     },
     {
-      referencia: 'ProfesorMolina, (s.f). Función interactiva de compuertas.',
+      referencia:
+        'ProfesorMolina, (s.f). <i>Función interactiva de compuertas</i>.',
       link: '',
     },
   ],

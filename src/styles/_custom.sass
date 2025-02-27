@@ -20,13 +20,15 @@
     bottom: 10%
     right: 0%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+.banner-interno__titulo__icono i
+  color: $color-primario
 
 .banner-interno
   height: 150px
@@ -101,12 +103,12 @@
     @media screen and (max-width: 520px)
       width: 120%
       left: -10%
-    top: 0
-    bottom: 0
-    z-index: 0
-    background-repeat: no-repeat
-    background-position: top
-    background-size: cover
+      top: 0
+      bottom: 0
+      z-index: 0
+      background-repeat: no-repeat
+      background-position: top
+      background-size: cover
   &.no-tam-full
     &:before
       left: 0 !important
@@ -216,7 +218,7 @@
     &::before
       @media screen and (max-width: $bp-max-sm)
         top: 10px
-  .cont-text 
+  .cont-text
     position: relative
     h3
       margin: 0
@@ -265,7 +267,7 @@
   font: inherit
 
 .order-p-1
-  order: 1    
+  order: 1
 .order-p-2
   order: 2
   @media screen and (max-width: $bp-max-md)
@@ -290,14 +292,21 @@
   .tarjeta
     .acordion__header
       margin-bottom: 0.7rem !important
-    padding-right: 1rem !important
-    padding-left: 1rem !important
-    padding-top: 0.7rem !important
-    border-radius: 10px
-    background-color: $color-sistema-r
+      padding-right: 1rem !important
+      padding-left: 1rem !important
+      padding-top: 0.7rem !important
+      border-radius: 10px
+      background-color: $color-sistema-r
     &.acordion__activo
       background-color: $color-sistema-j
   .acordion__accion__btn--a
     width: 50px
     height: 50px
     background-color: $color-acento-botones !important
+
+.tarjeta.tarjeta--azul
+  background-color: $color-sistema-r
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: $color-sistema-j
+.acordion__accion__btn--a
+  background-color: $color-acento-botones

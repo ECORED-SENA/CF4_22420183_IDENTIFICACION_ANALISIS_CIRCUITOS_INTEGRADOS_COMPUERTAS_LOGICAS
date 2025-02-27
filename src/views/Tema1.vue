@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Lógica combinatoria
-    
+
     .fondo-personalizado-1.bottom-1.f2.mb-4
       .fondo-personalizado-1__contenido.pt-5
         p.mb-4(data-aos="fade-up") La lógica combinatoria implica la integración de diferentes compuertas en un único circuito o esquema lógico.
@@ -34,7 +34,7 @@
         .row.justify-content-center(data-aos="fade-up")
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 1.] Relación entre funciones lógicas, operaciones y compuertas
+              p.mb-0 #[b Tabla 1.] #[i Relación entre funciones lógicas, operaciones y compuertas]
             .tabla-a.color-acento-contenido.tabla-p-1.pad-p-1
               table
                 thead
@@ -61,7 +61,7 @@
     .row.justify-content-center(data-aos="fade-up")
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 1.] Diagrama de compuertas lógicas
+          p.mb-0 #[b Figura 1.] #[i Diagrama de compuertas lógicas]
         figure
           img.mx-auto(src="@/assets/curso/temas/6.svg",style="max-width: 610px;",alt="El diagrama muestra un circuito lógico compuesto por tres entradas: A, B y C. Dos compuertas OR están conectadas de la siguiente manera: una toma las entradas A y B para producir la salida A+B; la otra toma las entradas B y C para producir la salida B+C. Estas salidas son llevadas a una compuerta AND, que genera el resultado final de la función lógica (A+B)⋅(B+C).")
     
@@ -98,7 +98,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 2.] Tabla de verdad.
+          p.mb-0 #[b Tabla 2.] #[i Tabla de verdad]
         .tabla-a.color-acento-contenido.tabla-p-1.min-w-1
           table
             thead
@@ -164,7 +164,7 @@
     .row.justify-content-center(data-aos="fade-up")
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 2.] Diagrama lógico con compuertas #[em OR] y #[em AND]
+          p.mb-0 #[b Figura 2.] #[i Diagrama lógico con compuertas OR y AND]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/8.svg",style="max-width: 434px;",alt="El diagrama muestra un circuito lógico compuesto por tres entradas etiquetadas como A, B y C. Estas se conectan a dos compuertas OR: la primera toma las entradas A y B, mientras que la segunda toma las entradas B y C. Las salidas de ambas compuertas OR se dirigen a una compuerta AND, cuya salida final está conectada a un cuadro etiquetado como Salida.")
@@ -198,7 +198,7 @@
         .row.justify-content-center(data-aos="fade-up")
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 3.] Propiedades o Reglas del Álgebra de Boole
+              p.mb-0 #[b Tabla 3.] #[i Propiedades o Reglas del Álgebra de Boole]
             .tabla-a.color-acento-contenido.tabla-p-1.min-w-1.mb-5
               table
                 thead
@@ -355,7 +355,7 @@
     .row.justify-content-center(data-aos="fade-up")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 3.] Representación de funciones lógicas con compuertas
+          p.mb-0 #[b Figura 3.] #[i Representación de funciones lógicas con compuertas]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/13.svg",style="max-width: 964px;",alt="La figura presenta dos circuitos lógicos y una tabla. La tabla tiene tres columnas etiquetadas como Función o Salida, Operación y Compuerta. En el circuito de la izquierda, las entradas A, B y C se conectan a una compuerta AND para obtener A⋅C, y luego a una compuerta OR junto con B para obtener B+(A*C) En el circuito de la derecha, las entradas A, B y C se procesan a través de dos compuertas OR, una que genera A+B y otra que genera B+C, cuyas salidas son conectadas a una compuerta AND que cumple la función (A+B)⋅(B+C).")
@@ -375,7 +375,7 @@
         .row.justify-content-center.mb-4(data-aos="fade-up")
           .col-lg-10
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 4.] Tabla comparativa de funciones lógicas sin simplificar y simplificada
+              p.mb-0 #[b Figura 4.] #[i Tabla comparativa de funciones lógicas sin simplificar y simplificada]
             .fondo-color-sistema-n.p-4
               figure
                 img.mx-auto(src="@/assets/curso/temas/14.svg",style="max-width: 864px;",alt="La figura presenta una tabla tiene cinco columnas principales: Variables o entradas, Función lógica sin simplificar (A+B)⋅(B+C), Variables o entradas repetidas, Salida parcial A⋅C, y Función lógica simplificada B+(A⋅C). Contiene valores binarios (0 y 1) para todas las combinaciones posibles de las variables A, B y C, mostrando cómo evolucionan los resultados desde la función sin simplificar hasta su versión simplificada, estableciendo una equivalencia entre ambas funciones.")
@@ -394,7 +394,7 @@
         .row.justify-content-center(data-aos="fade-up")
           .col-lg-8
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 5.] Circuito lógico con compuertas combinadas
+              p.mb-0 #[b Figura 5.] #[i Circuito lógico con compuertas combinadas]
             .fondo-color-sistema-n.p-4
               figure
                 img.mx-auto(src="@/assets/curso/temas/16.svg",style="max-width: 731px;",alt="La figura representa un circuito lógico con tres entradas etiquetadas como A, B y C. Las entradas pasan por diferentes compuertas. La entrada A y la entrada B se conectan a una compuerta OR. La entrada C pasa por un inversor antes de ser procesada junto con otras señales en una compuerta AND. Las salidas de las compuertas AND y OR se combinan en una compuerta OR final para generar la salida.")
@@ -405,7 +405,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 6.] Diagrama de circuito lógico y tabla de operaciones
+          p.mb-0 #[b Figura 6.] #[i Diagrama de circuito lógico y tabla de operaciones]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/17.svg",style="max-width: 909px;",alt="La imagen muestra un circuito lógico con varias compuertas y una tabla explicativa. El circuito comienza con una compuerta OR que toma como entradas A, B y C, y su salida es A + B + C. Luego, la entrada C pasa por una compuerta NOT para ser negada (C). La salida de la compuerta NOT (C) y la entrada B se combinan en una compuerta AND, generando la salida B⋅C. Posteriormente, la salida de la primera compuerta OR y C pasan por otra compuerta AND, cuyo resultado es (A+B+C)⋅C. Finalmente, ambas salidas AND se combinan en una compuerta OR, dando como resultado la función lógica final [(A+B+C)⋅C]+(B⋅C). La tabla debajo describe las compuertas utilizadas: OR (+), NOT (Inversor o negación), y AND (⋅).")
@@ -415,7 +415,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 4.] Tabla de verdad para función lógica compuesta
+          p.mb-0 #[b Tabla 4.] #[i Tabla de verdad para función lógica compuesta]
         .tabla-b.color-acento-contenido.tabla-p-2.pad-p-1
           table
             thead
@@ -511,7 +511,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 7.] Circuito lógico con compuertas combinadas
+          p.mb-0 #[b Figura 7.] #[i Circuito lógico con compuertas combinadas]
         
         .fondo-color-sistema-n.p-4.py-lg-5
           figure.mb-4.mb-lg-0
@@ -592,7 +592,7 @@
     p.mb-4(data-aos="fade-up") Ahora, se comprobará que ambas funciones generan los mismos resultados mediante sus tablas de verdad.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-up")
-      p.mb-0 #[b Tabla 5.] Comparación de función lógica sin simplificar y simplificada
+      p.mb-0 #[b Tabla 5.] #[i Comparación de función lógica sin simplificar y simplificada]
     
     .row(data-aos="fade-up")
       .col-lg-6.mb-4
@@ -730,14 +730,14 @@
     .row.mb-4(data-aos="fade-up")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 8.] Esquema lógico inicial
+          p.mb-0 #[b Figura 8.] #[i Esquema lógico inicial]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/21.svg",style="max-width: 729px;",alt="El diagrama muestra un circuito lógico con varias compuertas. Tres entradas (A, B, C) se procesan a través de una compuerta OR para generar la salida de la suma de A, B y C. La entrada C pasa por una compuerta NOT, y su salida negada se combina con la entrada B en una compuerta AND. Las salidas de estas operaciones se procesan en compuertas adicionales para generar la función lógica final que combina las operaciones de suma y producto de las entradas y sus negaciones. ")
     .row.mb-4(data-aos="fade-up")
       .col-lg-5
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 9.] Esquema lógico simplificado
+          p.mb-0 #[b Figura 9.] #[i Esquema lógico simplificado]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 457px;",alt="El diagrama muestra un circuito lógico simplificado con tres entradas (A, B, C). Las entradas A y B pasan por una compuerta OR generando la salida de su suma. La entrada C pasa por una compuerta NOT, y la salida negada se combina con la salida de la compuerta OR en una compuerta AND, generando la salida final que combina la negación de C con la suma de A y B.")
@@ -758,7 +758,7 @@
 
         .row.align-items-center.mb-5(data-aos="fade-up")
           .col-lg-9
-            AcordionA.acordion-personalizado-1.mb-0(tipo="a" clase-tarjeta="tarjeta")
+            AcordionA.mb-0(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               .div(titulo="Sensor Puerta 1")
                 .ps-md-5.ms-md-3
                   p Detecta el equipaje para permitir la apertura de la puerta 1 y el avance hacia el primer control. La salida es '0' cuando detecta equipaje y '1' cuando no.
@@ -811,7 +811,7 @@
     p.fw-bold.mb-4(data-aos="fade-up") Identificación de compuertas lógicas
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-up")
-      p.mb-0 #[b Figura 10.] Tabla de operación y compuertas lógicas para tres puertas
+      p.mb-0 #[b Figura 10.] #[i Tabla de operación y compuertas lógicas para tres puertas]
     
     figure.mb-4(data-aos="fade-up")
       img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/24.svg",style="max-width: 1240px;",alt="La figura presenta una tabla que describe la operación y las compuertas asociadas para tres puertas lógicas. En la primera columna, correspondiente a la puerta 1, se explica que cuando ingresa un valor 0, la salida será 1, es decir, se aplica una negación mediante una compuerta inversora. La segunda columna describe la puerta 2, que opera bajo la condición de que si las salidas de la puerta 1 y un botón son iguales a 1, la salida será 1, utilizando una compuerta AND. La tercera columna, correspondiente a la puerta 3, detalla que si las salidas de la puerta 2 y un sensor de tiquete son iguales a 1, la salida será 1, también utilizando una compuerta AND.")
@@ -822,7 +822,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 11.] Diagrama lógico de operación para control de puertas
+          p.mb-0 #[b Figura 11.] #[i Diagrama lógico de operación para control de puertas]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/26.svg",style="max-width: 865px;",alt="El diagrama muestra un sistema lógico para el control de puertas. Inicia con un sensor detector de objetos (A) conectado a una compuerta NOT que genera la salida para la puerta 1. Luego, un botón de revisión (B) se combina con la salida de la puerta 1 mediante una compuerta AND para generar la salida de la puerta 2. Finalmente, un sensor de tiquete (C) se combina con la salida de la puerta 2 en otra compuerta AND para generar la salida de la puerta 3 o salida final del sistema.")
@@ -837,7 +837,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 7.] Tabla de verdad y condiciones de apertura de puertas
+          p.mb-0 #[b Tabla 7.] #[i Tabla de verdad y condiciones de apertura de puertas]
         .tabla-a.color-acento-contenido.tabla-p-1.min-w-1
           table(style="width: auto;")
             thead
@@ -934,7 +934,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-up")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 12.] Diagrama lógico de control de puertas
+          p.mb-0 #[b Figura 12.] #[i Diagrama lógico de control de puertas]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/27.svg",style="max-width: 865px;",alt="La figura presenta un diagrama lógico compuesto por tres puertas. Un sensor detector de objetos (A) pasa por una compuerta NOT que genera la salida de la puerta 1. Un botón de revisión (B) se combina con la salida de la puerta 1 en una compuerta AND para generar la salida de la puerta 2. Finalmente, un sensor de tiquete (C) y la salida de la puerta 2 se combinan en otra compuerta AND para generar la salida de la puerta 3 o salida final.")
@@ -944,48 +944,19 @@
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 13.] Implementación del control de puertas con circuitos integrados
+          p.mb-0 #[b Figura 13.] #[i Implementación del control de puertas con circuitos integrados]
         .fondo-color-sistema-n.p-4
           figure
             img.mx-auto(src="@/assets/curso/temas/28.svg",style="max-width: 749px;",alt="La figura presenta dos circuitos integrados utilizados para implementar el control lógico de las puertas. El primer circuito es un 7404 con seis compuertas NOT, utilizado para la inversión de la entrada del sensor detector de objetos (A) en la puerta 1. El segundo circuito es un 7408 con cuatro compuertas AND, utilizado para las combinaciones lógicas en las puertas 2 y 3, integrando las señales de revisión (B) y del sensor de tiquete (C).")
-
-        
-
-
-    
-               
-
-                  
-             
-
-
-
-
-
-
-
-
-
-
-
-      
+ 
 </template>
 
 <script>
 export default {
   name: 'Tema1',
-  components: {},
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 
