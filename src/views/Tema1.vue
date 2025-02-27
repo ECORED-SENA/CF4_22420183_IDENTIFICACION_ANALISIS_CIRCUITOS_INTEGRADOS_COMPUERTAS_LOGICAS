@@ -593,8 +593,8 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-up")
       p.mb-0 #[b Tabla 5.] #[i Comparación de función lógica sin simplificar y simplificada]
     
-    .row(data-aos="fade-up")
-      .col-lg-5.mb-4
+    .row.justify-content-center(data-aos="fade-up")
+      .col-lg-5.mb-0.mb-lg-4
         .tabla-a.color-acento-contenido.tabla-p-1
           table
             thead(style="height:73px;")
@@ -641,12 +641,16 @@
                   td.text-center 1
                   td.text-center 1
                   td.text-center 0
-                  td.text-center 0
+                  td.text-center 1
                 tr
                   td.text-center 1
                   td.text-center 1
                   td.text-center 1
                   td.text-center 0
+      .col-auto.d-block.d-lg-none
+        .py-4
+          figure
+            img.mx-auto(src="@/assets/curso/temas/29.svg",style="max-width: 300px;")
       .col-lg-7.mb-4
         .tabla-a.color-acento-contenido.tabla-p-1.min-w-1
           table
@@ -720,9 +724,10 @@
                   td.text-center 1
                   td.text-center 0
                   td.text-center 0
-    
-    figure.mb-5(data-aos="fade-up")
-      img.mx-auto(src="@/assets/curso/temas/20.svg",style="max-width: 33px;")
+    .row.justify-content-end.mb-5
+      .col-auto.pe-5.me-5.d-none.d-lg-block
+        figure(data-aos="fade-up")
+          img(src="@/assets/curso/temas/20.svg",style="max-width: 700px;")
     
     p.mb-4(data-aos="fade-up") Se evidencia que las salidas para cada combinación son las mismas
 
